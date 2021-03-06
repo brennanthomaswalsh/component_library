@@ -1,4 +1,4 @@
-# component_library
+# component_library_two
 
 > Made with create-react-library
 
@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-npm install --save component_library
+npm install --save component_library_two
 ```
 
 ## Usage
@@ -15,8 +15,8 @@ npm install --save component_library
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'component_library'
-import 'component_library/dist/index.css'
+import MyComponent from 'component_library_two'
+import 'component_library_two/dist/index.css'
 
 class Example extends Component {
   render() {
