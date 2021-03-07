@@ -1,8 +1,14 @@
 import React from "react";
 
-function Button({ children, disabled = false }) {
+const baseButtonStyles = {
+  backgroundColor: "#a276f5",
+  color: "#f5f3f0",
+  borderRadius: "1rem"
+}
+
+function Button({ children, disabled = false, handleClick = () => { console.log('pass handleClick prop as a function')} }) {
   return (
-    <button disabled={disabled}>
+    <button onClick={handleClick} disabled={disabled} style={baseButtonStyles}>
       {children}
     </button>
   )
