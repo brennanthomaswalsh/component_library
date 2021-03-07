@@ -1,7 +1,7 @@
 {
-  "name": "component_library_two",
-  "version": "1.0.2",
-  "description": "Made with create-react-library",
+  "name": "@bwalsh/component_library",
+  "version": "1.0.0",
+  "description": "component_library_take_three",
   "author": "brennanthomaswalsh",
   "license": "MIT",
   "repository": "brennanthomaswalsh/component_library",

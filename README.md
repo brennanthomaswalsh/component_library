@@ -1,13 +1,13 @@
-# component_library_two
+# @bwalsh/component_library
 
-> Made with create-react-library
+> component_library_take_three
 
-[![NPM](https://img.shields.io/npm/v/component_library.svg)](https://www.npmjs.com/package/component_library) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/@bwalsh/component_library.svg)](https://www.npmjs.com/package/@bwalsh/component_library) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save component_library_two
+npm install --save @bwalsh/component_library
 ```
 
 ## Usage
@@ -15,8 +15,8 @@ npm install --save component_library_two
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'component_library_two'
-import 'component_library_two/dist/index.css'
+import MyComponent from '@bwalsh/component_library'
+import '@bwalsh/component_library/dist/index.css'
 
 class Example extends Component {
   render() {

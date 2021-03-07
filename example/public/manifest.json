@@ -1,6 +1,6 @@
 {
-  "short_name": "component_library",
-  "name": "component_library",
+  "short_name": "@bwalsh/component_library",
+  "name": "@bwalsh/component_library",
   "icons": [
     {
       "src": "favicon.ico",
